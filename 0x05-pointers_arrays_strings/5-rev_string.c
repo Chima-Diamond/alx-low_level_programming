@@ -4,7 +4,7 @@
  *rev_string - prints reversed string
  *@s: pointer
  *Return: void
- */
+*/
 void rev_string(char *s)
 {
 	int len, i, half;
