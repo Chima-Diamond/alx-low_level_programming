@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- *puts_half - prints a string
- *@str: pointer
- *Return: void
-*/
+ * puts_half - prints a string
+ * @str: pointer
+ * Return: void
+ */
 void puts_half(char *str)
 {
 	int len, n, i;
-	
+
 	len = 0;
-	
-	while (str[len] != '\0')	
+
+	while (str[len] != '\0')
 	{
 		len++;
 	}
@@ -19,7 +19,7 @@ void puts_half(char *str)
 	{
 		for (i = len / 2; str[i] != '\0'; i++)
 		{
-		_putchar(str[i]);
+			_putchar(str[i]);
 		}
 	}
 	else if (len % 2)
@@ -29,5 +29,5 @@ void puts_half(char *str)
 			_putchar(str[n + 1]);
 		}
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
